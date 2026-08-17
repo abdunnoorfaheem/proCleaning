@@ -1,0 +1,46 @@
+/* all common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height:0.8;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* all common  end*/
+
+/* header section style start */
+/* header section style end */
+/* header section style start */
+/* header section style end */
+/* header section style start */
+/* header section style end */
+/* header section style start */
+/* header section style end */
+/* header section style start */
+/* header section style end */
+/* header section style start */
+/* header section style end */
+/* header section style start */
+/* header section style end */
+/* header section style start */
+/* header section style end */
+/* header section style start */
+/* header section style end */
+/* header section style start */
+/* header section style end */
+/* header section style start */
+/* header section style end */
+/* header section style start */
+/* header section style end */
