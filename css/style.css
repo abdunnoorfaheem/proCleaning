@@ -49,24 +49,74 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .menu ul a:hover{
     color: #36B864;
-    font-weight: 500;
-
+    
+    
     text-shadow: 0.5px 0 0 #36B864;
 
 }
-.headerBtn a{
+.btnPrimary{
     background: #36B864;
     color: #fff;
     font-size: 16px;
     font-weight: 500;
-    padding: 9px 24px;
+    padding: 12px 24px;
     border-radius: 9px;
+     transition: .5s ease-in-out;
+   
+}
+.btnPrimary:hover{
+    background: transparent;
+    color: #111D15;
+    text-shadow: 0 0 0.6px #111D15 ;
+    
+    
 }
 /* header section style end */
 
 
-/* header section style start */
-/* header section style end */
+/* banner section style start */
+#bannerPart{
+    background: url('/images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    
+}
+.bannerContent{
+    padding-top: 150px ;
+}
+.bannerContent h5{
+    font-size: 15px;
+    color: #111D15;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    
+
+
+}
+.bannerContent h1{
+    font-size: 59px;
+    font-weight: 700;
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 115%;
+    color: #111D15;
+    width: 658px;
+    margin-top: 9px;
+    margin-bottom: 18px;
+
+}
+.bannerContent p{
+    color: #666666;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    width: 408px;
+    line-height: 22.5px;
+    margin-bottom: 30px;
+
+}
+/* banner section style end */
+
 /* header section style start */
 /* header section style end */
 /* header section style start */
