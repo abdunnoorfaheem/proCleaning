@@ -35,6 +35,17 @@
         width: 320px;
     }
     /* banner section end */
+    /* service section start */
+    .serviceTopFlex{
+        display: block;
+        text-align: center;
+    }
+    .serviceTopFlex h2{
+      font-size: 18px;
+      width: 100%;
+      
+    }
+    /* service section end */
  }
 
  /* Small devices (landscape phones, 576px and up) */
