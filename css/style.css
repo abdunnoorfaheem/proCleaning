@@ -149,12 +149,12 @@ p {
 .serviceBottom {
   margin-top: 30px;
 }
-.cardItemsFlex{
-    display: flex;
-    justify-content: space-between;
+.cardItemsFlex {
+  display: flex;
+  justify-content: space-between;
 }
-.cardItem{
-    width: 32%;
+.cardItem {
+  width: 32%;
 }
 .cardItem h4 {
   font-size: 22px;
@@ -180,16 +180,15 @@ p {
   font-size: 12px;
   font-weight: 400;
   font-family: "Be Vietnam Pro", sans-serif;
-  transition: .4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 .cardBtn a:hover {
-
-    background: #36B864;
-    color: white;
-    border:1px solid transparent;
+  background: #36b864;
+  color: white;
+  border: 1px solid transparent;
 }
-.cardBtn a  i{
-    transform: rotate(45deg);
+.cardBtn a i {
+  transform: rotate(45deg);
 }
 /* service section style end */
 
@@ -209,5 +208,72 @@ p {
 /* header section style end */
 /* header section style start */
 /* header section style end */
-/* header section style start */
-/* header section style end */
+
+/* footer section style start */
+#footerPart {
+  padding: 100px 135px 64px 135px;
+  background: #111d15;
+  color: #fff;
+}
+.footerFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerLogo p {
+  width: 317px;
+  margin-top: 17px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 160%;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.footerMenu h5 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Be Vietnam Pro", sans-serif;
+  margin-bottom: 36px;
+}
+.footerMenu .news {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Be Vietnam Pro", sans-serif;
+  margin-bottom: 26px;
+}
+.footerMenu ul li {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Be Vietnam Pro", sans-serif;
+  margin-bottom: 24px;
+}
+/* .emailInput{
+  margin-bottom: 26px;
+} */
+.emailInput input[type="text"]{
+  padding: 10px 16px;
+  outline: 0;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 16px;
+  border-radius: 6px;
+  
+ 
+}
+.emailInput input::placeholder{
+  color: #9E9E9E;
+}
+.footerBtn{
+
+   margin-top: 36px;
+
+}
+.footerBtn a {
+  background: #36b864;
+  color: #fff;
+  padding: 16px 28px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Be Vietnam Pro", sans-serif;
+ 
+}
+/* footer section style end */
